@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AddPostButton from "./AddPostButton";
 
 const AddPost = () => {
   return (
@@ -34,7 +35,7 @@ const AddPost = () => {
               height={20}
               className="w-5 h-5 cursor-pointer self-end"
             />
-            {/* <AddPostButton /> */}
+            <AddPostButton />
           </div>
         </form>
 
