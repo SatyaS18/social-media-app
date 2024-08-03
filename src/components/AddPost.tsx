@@ -40,6 +40,13 @@ const AddPost = () => {
 
         {/* POST OPTIONS  */}
         <div className="flex items-center gap-4 mt-4 text-gray-400 flex-wrap">
+          <div
+            className="flex items-center gap-2 cursor-pointer"
+            //   onClick={() => open()}
+          >
+            <Image src="/addimage.png" alt="" width={20} height={20} />
+            Photo
+          </div>
           <div className="flex items-center gap-2 cursor-pointer">
             <Image src="/addVideo.png" alt="" width={20} height={20} />
             Video
