@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
   return (
@@ -74,6 +75,7 @@ const Navbar = () => {
           <Image src="/login.png" alt="" width={20} height={20} />
           <Link href="/sign-in">Login/Register</Link>
         </div>
+        <MobileMenu />
       </div>
     </div>
   );
